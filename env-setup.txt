@@ -1,0 +1,16 @@
+# COPY ISI FILE INI KE .env.local
+
+# Database
+DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supabase.co:5432/postgres"
+
+# NextAuth.js
+NEXTAUTH_SECRET="yorent-super-secret-key-2024"
+NEXTAUTH_URL="http://localhost:3000"
+
+# App URL
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+# INSTRUKSI:
+# 1. Ganti [YOUR-PASSWORD] dengan password database yang Anda buat di Supabase
+# 2. Ganti [YOUR-PROJECT-REF] dengan project reference dari Supabase
+# 3. Copy semua isi file ini ke file .env.local di root project
